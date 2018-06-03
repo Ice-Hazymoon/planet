@@ -1,0 +1,15 @@
+{
+  "name": "planet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "planet"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "planet.js": "^0.4.0"
+  }
+}

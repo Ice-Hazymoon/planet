@@ -1,0 +1,161 @@
+# planet.js configuration
+
+planet:
+  name: Ice-Hazymoon's Planet # Site title
+  tagline: Ice-Hazymoon 的后宫 # Site tagline
+  description: Ice-Hazymoon 的后宫 # Site description
+  link: https://planet.imiku.me # Site link, do NOT include tailing slash '/'
+  locale: zh-CN # Site locale
+  owner_name: Ice-Hazymoon # Your name
+  owner_email: imiku.me@gmail.com # Your email
+  theme: pure # theme under templates directory
+  output: public # output directory, make sure your web server can read in this place
+  timeout: 30 # request timeout in seconds
+  items: 100 # how many posts should be displayed?
+  items_feed: 200 # maximum posts in feed
+  display_length: 2000 # posts longer than this characters, a summary will be displayed (if available)
+  post_update: false # use post update time in feeds. If enabled, post update date will be used to sort in list
+  time_format: MMMM Do YYYY h:mm:ss A # See http://momentjs.com/docs/#/displaying/ for details
+  ttl: 120 # TimeToLive minutes to cache site feed
+  lazyload: true # Use Lazyload for image
+
+secure:
+  proxy: # Leave blank if you don't use an http proxy
+  allowedTags: # set to true to allow any tags, or [] to disallow any.
+  - h1
+  - h2
+  - h3
+  - h4
+  - h5
+  - h6
+  - blockquote
+  - p
+  - a
+  - ul
+  - ol
+  - nl
+  - li
+  - b
+  - i
+  - s
+  - g
+  - strong
+  - em
+  - strike
+  - del
+  - pre
+  - code
+  - kbd
+  - hr
+  - br
+  - div
+  - table
+  - thead
+  - tbody
+  - tr
+  - th
+  - td
+  - caption
+  - img
+  - sup
+  - sub
+  - span
+  - font
+  - style
+  - svg
+  - defs
+  - path
+  - use
+  allowedAttributes:
+    a:
+    - href
+    - name
+    - target
+    - 'data-*'
+    img:
+    - src
+    - title
+    - alt
+    - 'data-*'
+  selfClosing:
+  - img
+  - br
+  - hr
+  allowedSchemes:
+  - http
+  - https
+  - ftp
+  - mailto
+  - data
+  allowProtocolRelative: true
+
+people:
+- name: BiliBiBi
+  link: https://moa.moe/feed
+  avatar: https://myblogpic.b0.upaiyun.com/avatar/moa.moe.jpg # available types: file path, gravatar email, http(s) image uri, or just leave blank
+- name: akarin服务器
+  link: https://www.akarin.moe/rss.xml
+  avatar: https://myblogpic.b0.upaiyun.com/avatar/akarin.top.png
+- name: KeJun
+  link: https://blog.kejun.space/feed.xml
+  avatar: https://myblogpic.b0.upaiyun.com/avatar/kejun.me.png
+- name: Kirito’s Blog
+  link: https://www.ixh.me/feed
+  avatar: https://myblogpic.b0.upaiyun.com/avatar/www.ixh.me.jpg
+- name: MikuBlog
+  link: https://mikublog.com/feed
+  avatar: https://myblogpic.b0.upaiyun.com/avatar/blog.52miku.cn.jpg
+- name: monsterlin
+  link: https://monsterlin.com/feed
+  avatar: https://myblogpic.b0.upaiyun.com/avatar/monsterlin.com.jpg
+- name: Halyul
+  link: https://blog.halyul.cc/atom.xml
+  avatar: https://myblogpic.b0.upaiyun.com/avatar/halyul.com.png
+- name: neoFelhz
+  link: https://blog.nfz.moe/atom.xml
+  avatar: https://myblogpic.b0.upaiyun.com/avatar/nfz.moe.png
+- name: QQ爹の博客
+  link: https://qqdie.com/feed
+  avatar: https://myblogpic.b0.upaiyun.com/avatar/qqdie.com.png
+- name: SIOCX
+  link: https://i.aiokr.com/feed/
+  avatar: https://myblogpic.b0.upaiyun.com/avatar/blog.siocx.space.png
+- name: Small color
+  link: http://www.ismallcolor.com/feed
+  avatar: https://myblogpic.b0.upaiyun.com/avatar/www.ismallcolor.com.png
+- name: TAMSHEN
+  link: https://tamshen.com/feed
+  avatar: https://q.qlogo.cn/g?b=qq&nk=774024602@qq.com&s=100
+- name: 伊妮卡丽因
+  link: https://www.rabbittu.com/feed/
+  avatar: https://myblogpic.b0.upaiyun.com/avatar/rabbittu.com.png
+- name: 兰陵の废宅基地
+  link: https://blog.thkira.com/feed
+  avatar: https://myblogpic.b0.upaiyun.com/avatar/blog.thkira.com.jpg
+- name: 冰雪林
+  link: https://www.xinxuan.me/feed/
+  avatar: https://myblogpic.b0.upaiyun.com/avatar/www.xinxuan.me.jpg
+- name: 天空之边
+  link: https://liyin.date/rss2.xml
+  avatar: https://myblogpic.b0.upaiyun.com/avatar/liyin.date.png
+- name: 宇辰
+  link: https://hywlovexyc.info/blog/feed
+  avatar: https://myblogpic.b0.upaiyun.com/avatar/hywlovexyc.info.png
+- name: 折影轻梦
+  link: https://i.chainwon.com/feed
+  avatar: https://myblogpic.b0.upaiyun.com/avatar/i.chainwon.com.jpg
+- name: 月宅酱
+  link: https://ikmoe.com/feed
+  avatar: https://myblogpic.b0.upaiyun.com/avatar/www.ikmoe.com.png
+- name: 流觞曲水
+  link: https://ls12.me/feed
+  avatar: https://myblogpic.b0.upaiyun.com/avatar/ls12.me.png
+- name: 蜜汁路易
+  link: https://www.cssplus.org/feed
+  avatar: https://myblogpic.b0.upaiyun.com/avatar/i94.me.jpeg
+- name: 超能小紫
+  link: https://www.mokeyjay.com/feed
+  avatar: https://myblogpic.b0.upaiyun.com/avatar/www.mokeyjay.com.jpg
+- name: 黎明余光
+  link: https://blog.lim-light.com/feed
+  avatar: https://myblogpic.b0.upaiyun.com/avatar/blog.lim-light.com.jpg

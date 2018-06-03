@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - "8"
+script: 
+  - npm run build
+install:
+  - npm install
+cache:
+  directories:
+    - node_modules
+after_script:
+  - cd ./public
+  - git init
+  - git config user.name "Ice-Hazymoon"
+  - git config user.email "imiku.me@gmail.com"
+  - git add .
+  - git commit -m "automated build"
+  - git push --quiet --force https://${REPO_TOKEN}@github.com/planet.git master:gh-pages
